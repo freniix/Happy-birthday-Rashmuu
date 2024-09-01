@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 #header {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: capitalize;
   color: rgb(0, 3, 155);
   font-family: "Baskervville SC", cursive;
