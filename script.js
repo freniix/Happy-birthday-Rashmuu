@@ -4,8 +4,8 @@ const body = document.getElementById("body");
 const hr = document.getElementById("hr");
 const header = document.getElementById("header");
 
-// const countBirthDayDate = new Date("September 22, 2024 00:00:00").getTime();
-const countBirthDayDate = new Date("September 01, 2024 21:26:00").getTime();
+const countBirthDayDate = new Date("September 22, 2024 00:00:00").getTime();
+//const countBirthDayDate = new Date("September 01, 2024 21:26:00").getTime();
 const countDown = setInterval(() => {
   let currentTime = new Date().getTime();
   let timeRemaining = countBirthDayDate - currentTime;
